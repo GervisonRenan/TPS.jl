@@ -96,4 +96,3 @@ results = reorganize(collect(tour_edges_sym))
 return results, objective_value(lazy_model)
         end
     end
-end

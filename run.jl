@@ -1,4 +1,4 @@
-nclude("instance.jl")
+include("instance.jl")
 include("model.jl")
 
 
