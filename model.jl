@@ -91,8 +91,6 @@ set_attribute(
 optimize!(lazy_model)
 
 plot_tour(instance.X, instance.Y, value.(lazy_model[:x]))
-
-results = reorganize(collect(tour_edges_sym))      
+      
 return results, objective_value(lazy_model)
-        end
-    end
+ end
